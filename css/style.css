@@ -26,6 +26,12 @@
     --mint-green: #1abd9c;
 }
 
+/* Altezze personalizzate */
+
+.c-h-1 {
+    height: 200px;
+}
+
 header {
     background-color: var(--dark-grey);
 }

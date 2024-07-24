@@ -23,6 +23,7 @@
 
 :root {
     --dark-grey: #2b3d4f;
+    --light-grey: #3a556e;
     --mint-green: #1abd9c;
 }
 
@@ -40,9 +41,18 @@
     height: 600px;
 }
 
+.c-h-4 {
+    height: 400px;
+}
+
+.c-h-5 {
+    height: 100px;
+}
+
 /* Body */
 
-header {
+header,
+.copyright {
     background-color: var(--dark-grey);
 }
 
@@ -51,7 +61,10 @@ header {
     background-color: var(--mint-green);
 }
 
-
 header .container {
     height: 80px;
+}
+
+.contact {
+    background-color: var(--light-grey);
 }

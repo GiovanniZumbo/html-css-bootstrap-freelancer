@@ -1,20 +1,40 @@
 /* Css reset */
 
-* {
+/* * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
+} */
 
 /* Generics */
 
-body {
+/* body {
     font-family: Montserrat, 'Helvetica Neue', sans-serif;
-}
+} */
 
 /* Utilities */
 
-.container {
+/* .container {
     max-width: 1200px;
     margin: 0 auto;
+} */
+
+/* Custom */
+
+:root {
+    --dark-grey: #2b3d4f;
+    --mint-green: #1abd9c;
+}
+
+header {
+    background-color: var(--dark-grey);
+}
+
+.jumbotron {
+    height: 550px;
+    background-color: var(--mint-green);
+}
+
+header .container {
+    height: 80px;
 }

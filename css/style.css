@@ -32,14 +32,25 @@
     height: 200px;
 }
 
+.c-h-2 {
+    height: 550px;
+}
+
+.c-h-3 {
+    height: 600px;
+}
+
+/* Body */
+
 header {
     background-color: var(--dark-grey);
 }
 
-.jumbotron {
-    height: 550px;
+.jumbotron,
+.about {
     background-color: var(--mint-green);
 }
+
 
 header .container {
     height: 80px;

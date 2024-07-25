@@ -64,6 +64,10 @@ header,
     font-size: 4rem;
 }
 
+.images img {
+    min-width: 100%;
+}
+
 #jumbotron,
 #about {
     background-color: var(--mint-green);

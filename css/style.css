@@ -51,6 +51,8 @@
 
 /* Generics */
 
+
+
 section h2 {
     font-size: 50px;
 }
@@ -77,7 +79,8 @@ header,
 }
 
 #jumbotron,
-#about {
+#about,
+#contact button {
     background-color: var(--mint-green);
 }
 
@@ -100,6 +103,6 @@ header .container {
     color: var(--dark-grey);
 }
 
-#contact button {
-    background-color: var(--mint-green)
+#address span {
+    color: var(--mint-green);
 }

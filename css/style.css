@@ -49,8 +49,16 @@
     height: 100px;
 }
 
+/* Generics */
+
 section h2 {
     font-size: 50px;
+}
+
+.side-line {
+    height: 2px;
+    width: 6rem;
+    border: 2px solid;
 }
 
 /* Body */
@@ -68,20 +76,9 @@ header,
     font-size: 4rem;
 }
 
-.images img {
-    min-width: 100%;
-}
-
 #jumbotron,
 #about {
     background-color: var(--mint-green);
-}
-
-.side-line {
-    height: 2px;
-    width: 6rem;
-    border: 2px solid;
-
 }
 
 header .container {
@@ -90,4 +87,19 @@ header .container {
 
 #address {
     background-color: var(--light-grey);
+}
+
+#contact .form-control {
+    border-color: transparent;
+    border-bottom: 1px solid grey;
+    border-radius: 0;
+    padding-left: 0;
+}
+
+#contact ::placeholder {
+    color: var(--dark-grey);
+}
+
+#contact button {
+    background-color: var(--mint-green)
 }

@@ -56,9 +56,24 @@ header,
     background-color: var(--dark-grey);
 }
 
+#jumbotron img {
+    width: 20%;
+}
+
+#jumbotron h1 {
+    font-size: 4rem;
+}
+
 #jumbotron,
 #about {
     background-color: var(--mint-green);
+}
+
+.side-line {
+    height: 2px;
+    width: 6rem;
+    border: 2px solid;
+
 }
 
 header .container {

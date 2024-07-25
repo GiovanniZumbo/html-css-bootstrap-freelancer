@@ -1,64 +1,16 @@
-/* Css reset */
-
-/* * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-} */
-
-/* Generics */
-
-/* body {
-    font-family: Montserrat, 'Helvetica Neue', sans-serif;
-} */
-
-/* Utilities */
-
-/* .container {
-    max-width: 1200px;
-    margin: 0 auto;
-} */
-
-/* Custom */
-
 :root {
     --dark-grey: #2b3d4f;
     --light-grey: #3a556e;
     --mint-green: #1abd9c;
 }
 
-/* Altezze personalizzate */
-
-.c-h-1 {
-    height: 200px;
-}
-
-.c-h-2 {
-    height: 550px;
-}
-
-.c-h-3 {
-    height: 600px;
-}
-
-.c-h-4 {
-    height: 400px;
-}
-
-.c-h-5 {
-    height: 100px;
-}
-
 /* Generics */
-
-
 
 section h2 {
     font-size: 50px;
 }
 
 .side-line {
-    height: 2px;
     width: 6rem;
     border: 2px solid;
 }
@@ -71,11 +23,7 @@ header,
 }
 
 #jumbotron img {
-    width: 20%;
-}
-
-#jumbotron h1 {
-    font-size: 4rem;
+    width: 250px;
 }
 
 #jumbotron,
@@ -101,6 +49,7 @@ header .container {
 
 #contact ::placeholder {
     color: var(--dark-grey);
+    font-weight: 500;
 }
 
 #address span {

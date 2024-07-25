@@ -52,12 +52,12 @@
 /* Body */
 
 header,
-.copyright {
+#copyright {
     background-color: var(--dark-grey);
 }
 
-.jumbotron,
-.about {
+#jumbotron,
+#about {
     background-color: var(--mint-green);
 }
 
@@ -65,6 +65,6 @@ header .container {
     height: 80px;
 }
 
-.address {
+#address {
     background-color: var(--light-grey);
 }
